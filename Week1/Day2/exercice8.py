@@ -28,9 +28,9 @@ data = [
 def quizz():
     incorrect_answer = []
     correct_answer = []
-    for i in data:
-        question = i["question"]
-        reponse = i["answer"]
+    for item in data:
+        question = item["question"]
+        reponse = item["answer"]
         reponse_user= input(f'donner moi la reponse de cette question : {question}')
         if reponse_user == reponse :
             print('votre reponse est correcte')
@@ -45,9 +45,9 @@ def quizz():
     return true,false
 
 
-def resultat(true,false):
-    print(f'votre nombre de reponse correcte est {true}')
-    print(f'votre nombre de reponse fausse est {false}')
+def resultat(x,y):
+    print(f'votre nombre de reponse correcte est {x}')
+    print(f'votre nombre de reponse fausse est {y}')
     
             
 
