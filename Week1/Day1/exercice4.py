@@ -1,8 +1,6 @@
-taille = int(input('entrer moi ta taille'))
+my_fav_numbers = [1,56,88,99,66,61]
 
-
-
-if taille > 145 :
-    print(" Vous êtes assez grand pour monter à bord  ")
-else : 
-    print('sorry ! vous devez encore grandir un peu pour pouvoir monter')
+my_fav_numbers.append(23)
+my_fav_numbers.insert(5,6)
+# my_fav_numbers.pop()
+print(my_fav_numbers)

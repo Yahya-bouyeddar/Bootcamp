@@ -1,10 +1,8 @@
-basket = ["Banana", "Apples", "Oranges", "Blueberries"]
+sandwich_orders = ["Tuna sandwich", "Pastrami sandwich", "Avocado sandwich", "Pastrami sandwich", "Egg sandwich", "Chicken sandwich", "Pastrami sandwich"]
 
-basket.remove("Banana")
-basket.remove("Blueberries")
-basket.append("Kiwi")
-basket.insert(0, "Apples")
-apple_count = basket.count("Apples")
-basket.clear()
 
-print(basket)
+while "Pastrami sandwich" in sandwich_orders:
+    sandwich_orders.remove('Pastrami sandwich')
+
+
+print(sandwich_orders)
