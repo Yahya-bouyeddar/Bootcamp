@@ -1,12 +1,15 @@
-mois  = int(input("donner moi un mois "))
+def say_hello(username, language="EN"):
+    if language == "EN":
+        print("Hello "+username)
+    elif language == "FR":
+        print("Bonjour "+username)
+    else:
+        print("This language is not supported: " + language)
+
+say_hello("Rick")
+# OR
+say_hello(username="Rick")
 
 
-if 3 <= mois <= 5:
-    print('la saison est Spring ')
-elif 6 <= mois <= 8:
-    print('la saison est Summer ')
-elif mois == 1 and mois == 2 and mois == 12:
-    print('la saison est Winter ')
-else  :
-    print('la saison est autumn ')
 
+say_hello("Rick","FR")
