@@ -1,6 +1,7 @@
 import random
 
 class Game():
+    
     array = ["ciseaux","pierre","feuille"]
 
    
@@ -10,7 +11,7 @@ class Game():
         
          while True :
             choice_uti= input('entrer (pierre/feuille/ciseaux').lower()
-            print(choice_uti)
+            
             if choice_uti in self.array:
                 return choice_uti
             print("Choix invalide, essayez encore.")
