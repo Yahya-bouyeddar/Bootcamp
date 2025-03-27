@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#container {
+  height: 100vh;
+  display: flex;
+  
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+#colorParent {
+  width: 20%;
+  background-color: darkgrey;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#content {
+  display: grid;
+  gap: 2px;
+  grid-template-columns:  repeat(60, 1fr);
+  width: 80%;
+  background-color: darkgrey;
+  height: 100vh;
+}
+button {
+  width: 90%;
+  padding: 20px;
+  justify-content: center;
+  align-self: center;
+  border-radius: 10px;
+  border: 1px solid;
+  margin: 5px 0px;
+  cursor: pointer;
+  font-size: larger;
+  transition: 0.5s;
+}
+button:hover {
+  letter-spacing: 2px;
+}
+#orange {
+  width: 33%;
+  background-color: orange;
+  height: 12vh;
+  border: 1px solid black;
+}
+#orangered {
+  width: 33%;
+  background-color: orangered;
+  /* height: 70px; */
+  border: 1px solid black;
+}
+#red {
+  width: 33%;
+  background-color: red;
+  /* height: 70px; */
+  border: 1px solid black;
+}
+.row {
+  margin: 2px 5px;
+  display: flex;
+  gap: 5px;
+}
+.row div {
+  height: 12vh;
+}
+#yellow {
+  width: 33%;
+  background-color: yellow;
+  /* height: 70px; */
+  border: 1px solid black;
+}
+#yellowgreen {
+  width: 33%;
+  background-color: yellowgreen;
+  /* height: 70px; */
+  border: 1px solid black;
+}
+#lightgreen {
+  width: 33%;
+  background-color: lightgreen;
+  /* height: 70px; */
+  border: 1px solid black;
+}
+#green {
+  width: 33%;
+  background-color: green;
+  /* height: 70px; */
+  border: 1px solid black;
+}
+#turquoise {
+  width: 33%;
+  background-color: turquoise;
+  /* height: 70px; */
+  border: 1px solid black;
+}
+#cyan {
+  width: 33%;
+  background-color: cyan;
+  /* height: 70px; */
+  border: 1px solid black;
+}
+#lightskyblue {
+  width: 33%;
+  background-color: lightskyblue;
+  /* height: 70px; */
+  border: 1px solid black;
+}
+#dodgerblue {
+  width: 33%;
+  background-color: dodgerblue;
+  /* height: 70px; */
+  border: 1px solid black;
+}
+#blue {
+  width: 33%;
+  background-color: blue;
+  /* height: 70px; */
+  border: 1px solid black;
+}
+#darkblue {
+  width: 33%;
+  background-color: darkblue;
+  /* height: 70px; */
+  border: 1px solid black;
+}
+#indigo {
+  width: 33%;
+  background-color: indigo;
+  /* height: 70px; */
+  border: 1px solid black;
+}
+#darkmagenta {
+  width: 33%;
+  background-color: darkmagenta;
+  /* height: 70px; */
+  border: 1px solid black;
+}
+#violet {
+  width: 33%;
+  background-color: violet;
+  /* height: 70px; */
+  border: 1px solid black;
+}
+#lightpink {
+  width: 33%;
+  background-color: lightpink;
+  /* height: 70px; */
+  border: 1px solid black;
+}
+#lightgray {
+  width: 33%;
+  background-color: lightgray;
+  /* height: 70px; */
+  border: 1px solid black;
+}
+#gray {
+  width: 33%;
+  background-color: gray;
+  /* height: 70px; */
+  border: 1px solid black;
+}
+#black {
+  width: 33%;
+  background-color: black;
+  /* height: 70px; */
+  border: 1px solid black;
+}
+#white {
+  width: 33%;
+  background-color: white;
+  /* height: 70px; */
+  border: 1px solid black;
+}
+.row > div {
+  height: 12vh;
+}
+.rightDiv {
+ 
+  background: white;
+  
+}
