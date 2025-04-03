@@ -1,0 +1,43 @@
+
+// 1) et 2)
+class Video {
+    constructor(title, uploader, time) {
+      this.title = title;      
+      this.uploader = uploader;  
+      this.time = time;        
+    }
+    watch(){
+        console.log(`${this.uploader} watched all ${this.time} of ${this.title}!`);
+        
+    }
+}
+// 3)
+const video1 = new Video('Apprendre JavaScript', 'yahya', 240);
+video1.watch()
+
+// 4)
+
+
+const video2 = new Video("Advanced Node.js", "yassine", 600)
+video2.watch()
+
+// 5) bonnus
+const videosData = [
+    { titre: "JavaScript ", uploader: "yahya", temps: 180 },
+    { titre: "Advanced CSS", uploader: "zakaria", temps: 290 },
+    { titre: "Node.js Tutorial", uploader: "imran", temps: 350 },
+    { titre: "React Crash Course", uploader: "yousef", temps: 360 },
+    { titre: "Vue.js ", uploader: "mohamed", temps: 150 }
+  ]
+
+ const video = videosData.map(function(video){
+    const instanceVideo = new Video(video.titre,video.uploader,video.temps)
+    instanceVideo.watch()
+    
+   
+    
+})
+
+
+
+  
