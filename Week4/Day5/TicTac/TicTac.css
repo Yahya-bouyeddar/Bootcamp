@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #3399ff;
+}
+h1{
+    font-size: 50px;
+    color: white;
+    padding-bottom: 30px;
+}
+#content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 70px;
+
+}
+#content div p {
+    color: white;
+    font-size: 30px;
+    align-self: center;
+}
+#content div button{
+    font-size: 30px;
+    padding: 20px;
+    margin-left: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    background: #1a53ff;
+    border-color: #1a53ff;
+    color: white;
+}
+#choice {
+    display: flex;
+}
+
+#game div {
+    width: 400px;
+    height: 100px;
+    
+    
+}
+.row{
+    display: flex;
+    cursor: pointer;
+}
+#case1{
+    border-bottom: 4px solid black;
+    border-right: 4px solid black;;
+
+}
+#case2{
+    border-bottom: 4px solid black;
+    border-right: 4px solid black;
+    
+
+}
+#case3{
+    border-bottom: 4px solid black;
+    
+
+}
+#case4{
+    border-bottom: 4px solid black;
+    border-right: 4px solid black;;
+
+}
+#case5{
+    border-bottom: 4px solid black;
+    border-right: 4px solid black;
+    
+
+}
+#case6{
+    border-bottom: 4px solid black;
+    
+
+}
+#case7{
+    border-right: 4px solid black;;
+    
+
+}
+#case8{
+    
+    border-right: 4px solid black;;
+
+}
+#game{
+    padding-top: 50px;
+    display: none;
+
+}
+.styleDiv{
+    color: white;
+    font-size: 100px;
+    text-align: center;
+    
+ 
+}
