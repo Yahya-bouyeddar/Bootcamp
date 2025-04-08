@@ -1,49 +1,49 @@
 const prompt = require('prompt-sync')();
 
-//  function makeAllCaps(array){
-//     return new Promise((resolve,reject)=>{
-//         const allString = array.every(item => typeof item ==='string')
+ function makeAllCaps(array){
+    return new Promise((resolve,reject)=>{
+        const allString = array.every(item => typeof item ==='string')
 
-//         if(allString){
-//             resolve(array.map(item=>item.toUpperCase()))
-//         }
-//         else{
-//             reject("Tous les éléments doivent être des chaînes de caractères")
-//         }
-//     })
+        if(allString){
+            resolve(array.map(item=>item.toUpperCase()))
+        }
+        else{
+            reject("Tous les éléments doivent être des chaînes de caractères")
+        }
+    })
 
-// }
-// function sortWords(array){
-//     return new Promise((resolve,reject)=>
-//     {
-//         if(array.length >4){
-//             resolve(array.sort())
-//         }
-//         else{
-//             reject("Le tableau doit contenir plus de 4 éléments")
-//         }
-//     })
+}
+function sortWords(array){
+    return new Promise((resolve,reject)=>
+    {
+        if(array.length >4){
+            resolve(array.sort())
+        }
+        else{
+            reject("Le tableau doit contenir plus de 4 éléments")
+        }
+    })
 
-// }
+}
 
-// makeAllCaps([1, "pear", "banana"])
-// .then((array)=>sortWords(array))
-// .then((result)=> console.log(result)
+makeAllCaps([1, "pear", "banana"])
+.then((array)=>sortWords(array))
+.then((result)=> console.log(result)
 
-// )
-// .catch(error=>console.log(error)
-// )
+)
+.catch(error=>console.log(error)
+)
 
-// makeAllCaps(["apple", "pear", "banana"])
-//       .then((arr) => sortWords(arr))
-//       .then((result) => console.log(result))
-//       .catch(error => console.log(error))
+makeAllCaps(["apple", "pear", "banana"])
+      .then((arr) => sortWords(arr))
+      .then((result) => console.log(result))
+      .catch(error => console.log(error))
 
 
-// makeAllCaps(["apple", "pear", "banana", "melon", "kiwi"])
-// .then((arr) => sortWords(arr))
-// .then((result) => console.log(result)) 
-// .catch(error => console.log(error))
+makeAllCaps(["apple", "pear", "banana", "melon", "kiwi"])
+.then((arr) => sortWords(arr))
+.then((result) => console.log(result)) 
+.catch(error => console.log(error))
 
 
 // 2eme Defie 
