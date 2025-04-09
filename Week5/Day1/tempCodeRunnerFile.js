@@ -1,1 +1,1 @@
-toMorse(morseJS)
+makeAllCaps([1, "pear", "banana"])
