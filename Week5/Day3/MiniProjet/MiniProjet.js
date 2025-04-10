@@ -21,6 +21,8 @@ async function getData() {
       throw new Error("Erreur", response.status);
     }
     const data = await response.json();
+    console.log(data);
+    
 
     content.innerHTML = `  <h1> ${data.name}</h1>
                             <p> Height :${data.height}</p>

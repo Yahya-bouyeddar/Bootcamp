@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: white;
+    height: 100vh;
+ 
+    background: url('https://tradermade.com//static/uploads/currency_converter.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+h1{
+    font-size: 70px;
+    margin-top: 50px;
+}
+p{
+    font-size: 40px;
+    padding: 30px;
+}
+input{
+    margin: 15px;
+    padding: 10px;
+border-radius: 9px;}
+button{
+    padding: 10px;
+    border-radius: 9px;
+    color: white;
+    background: rgb(49, 43, 43);
+    border: 1px solid white;
+    font-size: 20px;
+    cursor: pointer;
+}
+select{
+    padding: 10px 30px;
+    width: 500px;
+}
+#resultat{
+    font-size: 30px;
+}
