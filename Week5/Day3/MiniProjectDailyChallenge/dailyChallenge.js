@@ -42,7 +42,6 @@ async function getResult(option1, option2) {
     }
 
     const data = await response.json();
-    console.log(data.conversion_rate);
     return data.conversion_rate;
   } catch (error) {
     console.error("une errer s est produite", error);
@@ -61,15 +60,6 @@ button.addEventListener("click", async function getR() {
   }
 });
 
-// Select1.addEventListener("change", (e) => {
-//   option1 = e.target.value;
-//   console.log(option1);
-// });
-
-// selectCurrency.addEventListener("change", (e) => {
-//   option2 = e.target.value;
-//   console.log(option2);
-// });
 
 (async function main() {
   const currenciesData = await getCurrencies();
