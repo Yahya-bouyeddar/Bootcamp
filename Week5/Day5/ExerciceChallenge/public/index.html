@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Emoji Guessing Game</title>
+  <style>
+    body { font-family: Arial, sans-serif; text-align: center; }
+    .options { display: flex; justify-content: center; margin-top: 20px; }
+    .option { margin: 0 10px; cursor: pointer; padding: 10px; background-color: #f0f0f0; border-radius: 5px; }
+    .option:hover { background-color: #d0d0d0; }
+  </style>
+</head>
+<body>
+  <h1>Guess the Emoji</h1>
+  <div id="emoji"></div>
+  <div class="options" id="options"></div>
+  <p id="feedback"></p>
+  <h2>Your Score: <span id="score">0</span></h2>
+
+  <h3>Leaderboard:</h3>
+  <ul id="leaderboard"></ul>
+
+  <script src="script.js"></script>
+</body>
+</html>
